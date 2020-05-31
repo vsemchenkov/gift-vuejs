@@ -21,12 +21,12 @@
                 </li>
                 <li>Наши приемущества</li>
                 <li>
-                    <router-link to="/catalog">
+                    <router-link to="/">
                         Каталог
                     </router-link>
                     <ul>
-                        <li>catalog 1</li>
-                        <li>catalog 2</li>
+                        <li><router-link to="/mobile">Mobile</router-link></li>
+                        <li><router-link to="/complect">Complect</router-link></li>
                         <li>catalog 3</li>
                         <li>catalog 4</li>
                     </ul>
@@ -34,7 +34,6 @@
                 <li>Уход за изделиями</li>
                 <li>Доставка</li>
                 <li>Контакты</li>
-                <li><card-page></card-page></li>
             </ul>
         </div>
     </section>
@@ -42,10 +41,9 @@
 
 <script>
 
-    import CardPage from "./card/CardPage";
     export default {
         name: "HeaderLayout",
-        components: {CardPage},
+        components: {},
         data() {
             return {}
         },
@@ -106,7 +104,7 @@
 
             justify-content: center;
             align-content: center;
-            grid-template-columns: repeat(7, 1fr);
+            grid-template-columns: repeat(6, 1fr);
             height: 80px;
         }
 
@@ -151,6 +149,14 @@
             width: 200px;
             letter-spacing:1.5px;
             padding-bottom: 5px;
+        }
+        .right-wrapper > ul > li > ul > li > a {
+            font-size: 14px;
+            color: #222;
+            width: 200px;
+            letter-spacing:1.5px;
+            padding-bottom: 5px;
+            text-decoration: none;
         }
 
         .t794__arrow::after {
@@ -252,6 +258,15 @@
             letter-spacing:1.5px;
             padding-bottom: 5px;
         }
+        .right-wrapper > ul > li > ul > li > a {
+            font-size: 14px;
+            color: #222;
+            width: 200px;
+            letter-spacing:1.5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+        }
+
 
         .t794__arrow::after {
             content: ' ';
@@ -396,6 +411,15 @@
             letter-spacing:1.5px;
             padding-bottom: 5px;
         }
+        .right-wrapper > ul > li > ul > li > a {
+            font-size: 14px;
+            color: #222;
+            width: 200px;
+            letter-spacing:1.5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+        }
+
 
         .t794__arrow::after {
             content: ' ';
@@ -541,6 +565,15 @@
             letter-spacing:1.5px;
             padding-bottom: 5px;
         }
+        .right-wrapper > ul > li > ul > li > a {
+            font-size: 14px;
+            color: #222;
+            width: 200px;
+            letter-spacing:1.5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+        }
+
 
         .t794__arrow::after {
             content: ' ';
@@ -686,6 +719,15 @@
             letter-spacing:1.5px;
             padding-bottom: 5px;
         }
+        .right-wrapper > ul > li > ul > li > a {
+            font-size: 14px;
+            color: #222;
+            width: 200px;
+            letter-spacing:1.5px;
+            padding-bottom: 5px;
+            text-decoration: none;
+        }
+
 
         .t794__arrow::after {
             content: ' ';

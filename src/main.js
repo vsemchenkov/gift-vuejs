@@ -3,10 +3,11 @@ import Vuex from 'vuex';
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import MainPage from "./components/layouts/MainPage";
-import CatalogPage from "./components/layouts/CatalogPage"
+import MobilePage from "./components/layouts/MobilePage";
 
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
+import ComplectPage from "./components/layouts/ComplectPage";
 
 Vue.config.productionTip = false
 
@@ -16,7 +17,8 @@ const router = new VueRouter({
   mode: 'history',
   routes: [
     { path: '/', component: MainPage },
-    { path: '/catalog', component: CatalogPage }
+    { path: '/mobile', component: MobilePage },
+    { path: '/complect', component: ComplectPage }
   ]
 })
 
