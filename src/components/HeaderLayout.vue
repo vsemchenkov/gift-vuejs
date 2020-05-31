@@ -34,14 +34,29 @@
                 <li>Уход за изделиями</li>
                 <li>Доставка</li>
                 <li>Контакты</li>
+                <li><card-page></card-page></li>
             </ul>
         </div>
     </section>
 </template>
 
 <script>
+
+    import CardPage from "./card/CardPage";
     export default {
-        name: "HeaderLayout"
+        name: "HeaderLayout",
+        components: {CardPage},
+        data() {
+            return {}
+        },
+        methods: {
+            openMenu: function () {
+                let getter = document.getElementById('menu')
+                console.log(getter);
+                getter.style.display = 'grid';
+            }
+        }
+
     }
 </script>
 
@@ -91,7 +106,7 @@
 
             justify-content: center;
             align-content: center;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(7, 1fr);
             height: 80px;
         }
 
@@ -694,17 +709,3 @@
 
 
 </style>
-<script>
-    module.exports = {
-        data() {
-            return {}
-        },
-        methods: {
-            openMenu: function () {
-                let getter = document.getElementById('menu')
-                console.log(getter);
-                getter.style.display = 'grid';
-            }
-        }
-    }
-</script>

@@ -6,56 +6,56 @@
 
         <div class="catalog-blocks">
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-1.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-2.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-3.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-4.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-5.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-6.jpeg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-8.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>
                 </div>
             </div>
             <div class="catalog-item">
-                <img src="../../../assets/img/slides/slider-2.jpg" alt="">
+                <img src="../../../assets/img/slide/slide-1-8.jpg" alt="">
                 <p class="catalog-p">Бомбон одеяла</p>
                 <div class="catalog-for-button">
                     <button>Кнопка</button>

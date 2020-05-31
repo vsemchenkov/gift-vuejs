@@ -13,7 +13,8 @@
     import MenuBlock from "@/components/menublock";
 
 
-    export default {
+
+export default {
         name: 'App',
         components: {
             MenuBlock,
